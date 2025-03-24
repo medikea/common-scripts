@@ -23,7 +23,7 @@ echo \
 sudo apt-get update
 
 echo "Installing Docker Engine, CLI, and containerd..."
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
 
 
 echo "Adding current user to the Docker group (log out and back in for this to take effect)..."
